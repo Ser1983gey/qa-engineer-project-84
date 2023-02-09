@@ -1,1 +1,50 @@
+---
+- summary: |
+    Проверка перевода на русский язык.
+  environment: |
+    Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
+    Windows 11 Pro
+  steps-to-reproduce: >
+    1. Зайти на страницу
+    https://hexlet-products-store.vercel.app/
+    2. Переключить Language на
+    Russian.  
+  expected-result: |
+    Весь сайт на русском языке.
+  actual-result: |
+    Сайт частично на русском языке.
+- summary: >
+    Изменяется url в адресной строке браузера, не работают вкладки
+    LOBBY/TOURNAMENT/COMPLETED GAMES
+  environment: |
+    Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
+    Windows 11 Pro
+  steps-to-reproduce: >
+    1. Залогиниться в системе
+    https://codebattle.hexlet.io/session/new?locale=en&next=%2F
+
+    2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
+
+    3. Переключить LOBBY/TOURNAMENT/COMPLETED GAMES
+  expected-result: |
+    url в адресной строке не меняется
+    Вкладки работают
+  actual-result: |
+    При нажатии на week,month,all в urlHash появляется '!'
+    Вкладки не работают.
+    Ошибка изображена на скриншоте assets/bug.png
+- summary: |
+    Проверка возможности смотреть цены в рублях.
+  environment: |
+    Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
+    Windows 11 Pro
+  steps-to-reproduce: |
+    1. Зайти на страницу https://hexlet-products-store.vercel.app/
+    2. Выбрать товар.
+    3. Найти цену товара.
+    4. Посмотреть цену в рублях.
+  expected-result: |
+    Цена товара показана в рублях.
+  actual-result: |
+    Цена товара показана в долларах.
 
