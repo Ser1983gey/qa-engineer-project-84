@@ -1,10 +1,13 @@
-  - summary: |
-      Плавающее меню "Comments"
-    environment: |
-      Ссылка на билд/коммит/версия ПО и всего окружения
-    steps-to-reproduce: |
-      Полный перечень шагов для воспроизведения, на каком шаге произошла ошибка
-    expected-result: |
-      Какой результат должен был быть без ошибки
-    actual-result: |
-      Какой результат получился на самом деле
+---
+- summary: |
+    Плавающее меню "Comments"
+  environment: |
+    Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
+    Windows 11 Pro
+  steps-to-reproduce: >
+    1.Входим на сайт
+    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+  expected-result: |
+    Открылся сайт интернет-магазина
+  actual-result: |
+    Открылся сайт интернет-магазина с плавающим окном.
