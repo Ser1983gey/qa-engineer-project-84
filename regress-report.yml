@@ -80,7 +80,8 @@ bugreports:
       Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
       Windows 11 Pro
     steps-to-reproduce: >
-      1. Зайти на страницу интернет-магазина https://hexlet-products-store.vercel.app/  
+      1. Зайти на страницу интернет-магазина   
+         https://hexlet-products-store.vercel.app/
       2. Выбрать меню сортировки производителей по алфавиту.  
       3. Нажать кнопку сортировки.
     expected-result: |
@@ -96,7 +97,8 @@ feauter-report:
       Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
       Windows 11 Pro
     steps-to-reproduce: >
-      1.Входим на сайт https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+      1.Входим на сайт 
+        https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
     expected-result: |
       Открылся сайт интернет-магазина.
     actual-result: |
