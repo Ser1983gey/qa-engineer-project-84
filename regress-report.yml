@@ -92,15 +92,15 @@ bugreports:
 
 ---
 feauter-report:
-- summary: |
-    Плавающее меню "Comments"
-  environment: |
-    Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
-    Windows 11 Pro
-  steps-to-reproduce: >
-    1.Входим на сайт
-    https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Открылся сайт интернет-магазина.
-  actual-result: |
-    Открылся сайт интернет-магазина с плавающим окном.
+ - summary: |
+     Плавающее меню "Comments"
+   environment: |
+     Яндекс Браузер   Версия 23.1.2.928 (64-bit) 
+     Windows 11 Pro
+   steps-to-reproduce: >
+     1.Входим на сайт
+     https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+   expected-result: |
+     Открылся сайт интернет-магазина.
+   actual-result: |
+     Открылся сайт интернет-магазина с плавающим окном.
