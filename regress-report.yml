@@ -44,8 +44,7 @@ test-cases:
     status: fail
 
 ---
-bugreports:
-
+bugreports: []
 
 ---
 feauter-report:
