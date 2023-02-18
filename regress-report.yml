@@ -44,19 +44,19 @@ test-cases:
     status: 
   - summary: |
       Проверка возможности оформить заказ.
-    status: 
+    status:  pass
   - summary: |
       Проверка возможности добавить несколько товаров в корзину. 
-    status: 
+    status:  pass
   - summary: |
       Проверка возможности продолжения покупок после открытия корзины.
-    status: 
+    status:  pass
   - summary: |
       Проверка навигации по страницам каталога. 
-    status: 
+    status:  pass
   - summary: |
       Проверка хэштега с переходом в категорию.
-    status: 
+    status:  pass
 ---
 bugreports: []
 
