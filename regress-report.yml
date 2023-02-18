@@ -41,22 +41,22 @@ test-cases:
     status: pass
   - summary: |
       Проверка неправильной фильтрации. 
-    status: 
+    status: fail
   - summary: |
       Проверка возможности оформить заказ.
-    status:  pass
+    status: pass
   - summary: |
       Проверка возможности добавить несколько товаров в корзину. 
-    status:  pass
+    status: pass
   - summary: |
       Проверка возможности продолжения покупок после открытия корзины.
-    status:  pass
+    status: pass
   - summary: |
       Проверка навигации по страницам каталога. 
-    status:  pass
+    status: pass
   - summary: |
       Проверка хэштега с переходом в категорию.
-    status:  pass
+    status: pass
 ---
 bugreports: []
 
